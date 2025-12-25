@@ -1,0 +1,570 @@
+{
+    "JavaScript": [
+  {
+    "id": 1,
+    "question": "Which of the following is not a reserved word in JavaScript?",
+    "options": ["interface", "throws", "program", "short"],
+    "answer": "program",
+    "explanation": "'interface', 'throws', and 'short' are reserved keywords in JavaScript, whereas 'program' is not."
+  },
+  {
+    "id": 2,
+    "question": "What is the output of 'console.log(typeof NaN);'?",
+    "options": ["number", "NaN", "undefined", "object"],
+    "answer": "number",
+    "explanation": "Technically, NaN (Not-a-Number) is of the numeric data type in JavaScript."
+  },
+  {
+    "id": 3,
+    "question": "Which method is used to serialize an object into a JSON string?",
+    "options": ["JSON.parse()", "JSON.stringify()", "JSON.toText()", "JSON.convert()"],
+    "answer": "JSON.stringify()",
+    "explanation": "JSON.stringify() converts a JavaScript object or value to a JSON string."
+  },
+  {
+    "id": 4,
+    "question": "How can you check if a variable 'x' is an array?",
+    "options": ["typeof x === 'array'", "x.isArray()", "Array.isArray(x)", "x instanceof Array"],
+    "answer": "Array.isArray(x)",
+    "explanation": "Array.isArray() is the most reliable method to determine if a value is an Array."
+  },
+  {
+    "id": 5,
+    "question": "What is the result of '1' + 1 - 1?",
+    "options": ["11", "10", "1", "0"],
+    "answer": "10",
+    "explanation": "'1' + 1 results in string '11'. Then '11' - 1 performs numeric subtraction, resulting in 10."
+  },
+  {
+    "id": 6,
+    "question": "Which company developed JavaScript?",
+    "options": ["Netscape", "Microsoft", "Google", "Oracle"],
+    "answer": "Netscape",
+    "explanation": "JavaScript was created by Brendan Eich at Netscape in 1995."
+  },
+  {
+    "id": 7,
+    "question": "What does the 'break' statement do in a loop?",
+    "options": ["Skips the current iteration", "Exits the loop entirely", "Restarts the loop", "Pauses the loop"],
+    "answer": "Exits the loop entirely",
+    "explanation": "The break statement jumps out of a loop and continues executing the code after the loop."
+  },
+  {
+    "id": 8,
+    "question": "Which symbol is used for multi-line comments in JavaScript?",
+    "options": ["//", "/* */", "", "##"],
+    "answer": "/* */",
+    "explanation": "/* */ is used for multi-line comments, while // is used for single-line comments."
+  },
+  {
+    "id": 9,
+    "question": "What is the correct syntax for an arrow function?",
+    "options": ["() => {}", "function => {}", "() -> {}", "=> () {}"],
+    "answer": "() => {}",
+    "explanation": "The standard ES6 arrow function syntax uses the 'fat arrow' (=>) symbol."
+  },
+  {
+    "id": 10,
+    "question": "Which keyword is used to declare a constant variable?",
+    "options": ["var", "let", "const", "static"],
+    "answer": "const",
+    "explanation": "Variables defined with const cannot be redeclared or reassigned."
+  },
+  {
+    "id": 11,
+    "question": "What is the value of 'false == 0'?",
+    "options": ["true", "false", "undefined", "null"],
+    "answer": "true",
+    "explanation": "Using loose equality (==), JavaScript coerces the boolean false to the number 0."
+  },
+  {
+    "id": 12,
+    "question": "Which function is used to schedule a function to run after a delay?",
+    "options": ["delay()", "setTimeout()", "setInterval()", "wait()"],
+    "answer": "setTimeout()",
+    "explanation": "setTimeout() executes a piece of code after a specified number of milliseconds."
+  },
+  {
+    "id": 13,
+    "question": "What is the output of 'console.log(2 + true);'?",
+    "options": ["2true", "3", "2", "NaN"],
+    "answer": "3",
+    "explanation": "JavaScript coerces 'true' to 1 when performing addition with a number."
+  },
+  {
+    "id": 14,
+    "question": "What is the primary difference between '==' and '==='?",
+    "options": ["No difference", "== checks value, === checks value and type", "== is for strings, === for numbers", "=== is used for assignment"],
+    "answer": "== checks value, === checks value and type",
+    "explanation": "=== is the strict equality operator and does not perform type coercion."
+  },
+  {
+    "id": 15,
+    "question": "Which of these is a 'falsy' value in JavaScript?",
+    "options": ["'0'", "[]", "undefined", "{}"],
+    "answer": "undefined",
+    "explanation": "undefined, null, 0, false, NaN, and '' are the standard falsy values."
+  },
+  {
+    "id": 16,
+    "question": "How do you access the first element of an array named 'colors'?",
+    "options": ["colors[1]", "colors(0)", "colors[0]", "colors.first()"],
+    "answer": "colors[0]",
+    "explanation": "JavaScript arrays are zero-indexed."
+  },
+  {
+    "id": 17,
+    "question": "What is the purpose of 'use strict'?",
+    "options": ["Makes code run faster", "Enforces stricter error handling", "Prevents use of variables", "Allows use of global variables"],
+    "answer": "Enforces stricter error handling",
+    "explanation": "Strict mode catches common coding bloopers and prevents the use of undeclared variables."
+  },
+  {
+    "id": 18,
+    "question": "Which array method creates a new array with all elements that pass a test?",
+    "options": ["map()", "forEach()", "filter()", "reduce()"],
+    "answer": "filter()",
+    "explanation": "filter() returns a new array containing elements that return true for the provided callback function."
+  },
+  {
+    "id": 19,
+    "question": "What does DOM stand for?",
+    "options": ["Data Object Model", "Document Object Model", "Digital Objects Management", "Document Oriented Middleware"],
+    "answer": "Document Object Model",
+    "explanation": "The DOM is a programming interface for web documents."
+  },
+  {
+    "id": 20,
+    "question": "Which keyword refers to the current object in a method or constructor?",
+    "options": ["this", "self", "object", "current"],
+    "answer": "this",
+    "explanation": "In JavaScript, 'this' refers to the object that the function is a property of."
+  }
+],
+"Python":[
+  {
+    "id": 1,
+    "question": "What is the correct file extension for Python files?",
+    "options": [".pt", ".pyt", ".py", ".pyc"],
+    "answer": ".py",
+    "explanation": "Standard Python source code files use the .py extension."
+  },
+  {
+    "id": 2,
+    "question": "Which function is used to get the length of a list in Python?",
+    "options": ["length()", "size()", "count()", "len()"],
+    "answer": "len()",
+    "explanation": "The len() function returns the number of items in an object."
+  },
+  {
+    "id": 3,
+    "question": "What is the output of 'print(type(1 / 2))' in Python 3?",
+    "options": ["<class 'int'>", "<class 'float'>", "<class 'double'>", "<class 'number'>"],
+    "answer": "<class 'float'>",
+    "explanation": "In Python 3, the / operator performs float division, even if both numbers are integers."
+  },
+  {
+    "id": 4,
+    "question": "Which collection is ordered, changeable, and allows duplicate members?",
+    "options": ["List", "Set", "Tuple", "Dictionary"],
+    "answer": "List",
+    "explanation": "Lists are mutable, ordered sequences that allow duplicates. Tuples are immutable, and Sets do not allow duplicates."
+  },
+  {
+    "id": 5,
+    "question": "How do you define a block of code in Python?",
+    "options": ["Curly braces", "Parentheses", "Indentation", "Quotation marks"],
+    "answer": "Indentation",
+    "explanation": "Python uses whitespace indentation to define the scope of loops, functions, and classes."
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is used to create a generator in Python?",
+    "options": ["return", "yield", "produce", "export"],
+    "answer": "yield",
+    "explanation": "The yield keyword pauses function execution and sends a value back to the caller, but retains enough state to enable the function to resume where it left off."
+  },
+  {
+    "id": 7,
+    "question": "What is the result of 'bool([])'?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": "False",
+    "explanation": "Empty sequences (lists, strings, tuples) are considered 'falsy' in Python."
+  },
+  {
+    "id": 8,
+    "question": "Which statement is used to handle exceptions in Python?",
+    "options": ["try...except", "try...catch", "do...catch", "throw...error"],
+    "answer": "try...except",
+    "explanation": "Python uses try...except blocks to catch and handle exceptions."
+  },
+  {
+    "id": 9,
+    "question": "What does the 'self' parameter in a class method represent?",
+    "options": ["The class itself", "A private variable", "The specific instance of the object", "The parent class"],
+    "answer": "The specific instance of the object",
+    "explanation": "By convention, 'self' is the first parameter of instance methods in Python, representing the object instance."
+  },
+  {
+    "id": 10,
+    "question": "Which method is used to add an element to the end of a list?",
+    "options": ["add()", "push()", "append()", "insert()"],
+    "answer": "append()",
+    "explanation": "The append() method adds a single item to the end of an existing list."
+  },
+  {
+    "id": 11,
+    "question": "What is the output of 'print(\"Abc\".lower())'?",
+    "options": ["ABC", "abc", "Abc", "error"],
+    "answer": "abc",
+    "explanation": "The lower() method returns a string where all characters are lower case."
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is an 'identity' operator in Python?",
+    "options": ["==", "is", "in", "equals"],
+    "answer": "is",
+    "explanation": "The 'is' operator checks if two variables point to the same object in memory."
+  },
+  {
+    "id": 13,
+    "question": "How do you create a dictionary in Python?",
+    "options": ["[]", "()", "{}", "<>"],
+    "answer": "{}",
+    "explanation": "Dictionaries are defined using curly braces with key-value pairs."
+  },
+  {
+    "id": 14,
+    "question": "Which keyword is used to skip the rest of the code inside a loop for the current iteration?",
+    "options": ["break", "pass", "continue", "skip"],
+    "answer": "continue",
+    "explanation": "The continue statement rejects all the remaining statements in the current iteration of the loop and moves the control back to the top."
+  },
+  {
+    "id": 15,
+    "question": "What is 'PEP 8'?",
+    "options": ["A Python compiler", "A style guide for Python code", "A library for data science", "The latest version of Python"],
+    "answer": "A style guide for Python code",
+    "explanation": "PEP 8 provides guidelines and best practices on how to write Python code for maximum readability."
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is NOT a built-in data type in Python?",
+    "options": ["int", "float", "boolean", "array"],
+    "answer": "array",
+    "explanation": "Python has lists and tuples built-in; 'array' is available via the 'array' module or NumPy, but is not a basic built-in keyword like int."
+  },
+  {
+    "id": 17,
+    "question": "What is the output of '3 // 2'?",
+    "options": ["1.5", "1", "2", "0"],
+    "answer": "1",
+    "explanation": "The // operator performs floor division, rounding the result down to the nearest whole number."
+  },
+  {
+    "id": 18,
+    "question": "How do you import a module named 'math' in Python?",
+    "options": ["include math", "import math", "#include <math>", "using math"],
+    "answer": "import math",
+    "explanation": "The import keyword is used to bring modules into the current namespace."
+  },
+  {
+    "id": 19,
+    "question": "What is the result of '\"a\" * 3'?",
+    "options": ["a3", "aaa", "Error", "[\"a\", \"a\", \"a\"]"],
+    "answer": "aaa",
+    "explanation": "The * operator when used with a string and an integer performs string repetition."
+  },
+  {
+    "id": 20,
+    "question": "What does 'lambda' refer to in Python?",
+    "options": ["A large class", "An anonymous function", "A specific type of loop", "A way to manage memory"],
+    "answer": "An anonymous function",
+    "explanation": "Lambda functions are small, one-line anonymous functions defined without a name."
+  }
+],
+"Java":[
+  {
+    "id": 1,
+    "question": "Which of the following is not a primitive data type in Java?",
+    "options": ["int", "boolean", "String", "double"],
+    "answer": "String",
+    "explanation": "String is a class (reference type) in Java, while int, boolean, and double are primitive types."
+  },
+  {
+    "id": 2,
+    "question": "What is the default value of a boolean variable in a class?",
+    "options": ["true", "false", "null", "1"],
+    "answer": "false",
+    "explanation": "Instance variables of type boolean are initialized to false by default."
+  },
+  {
+    "id": 3,
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["implements", "extends", "inherits", "using"],
+    "answer": "extends",
+    "explanation": "The 'extends' keyword is used to create a subclass from a superclass."
+  },
+  {
+    "id": 4,
+    "question": "What is the purpose of the 'final' keyword when applied to a class?",
+    "options": ["It makes the class abstract", "It prevents the class from being inherited", "It allows the class to be instantiated only once", "It makes all methods of the class static"],
+    "answer": "It prevents the class from being inherited",
+    "explanation": "A final class cannot be extended by any other class."
+  },
+  {
+    "id": 5,
+    "question": "Which method is the entry point for every Java application?",
+    "options": ["init()", "start()", "main()", "run()"],
+    "answer": "main()",
+    "explanation": "The JVM looks for 'public static void main(String[] args)' to start program execution."
+  },
+  {
+    "id": 6,
+    "question": "Which of these is used to handle exceptions in Java?",
+    "options": ["try-catch", "throw-catch", "check-error", "if-else"],
+    "answer": "try-catch",
+    "explanation": "The try-catch block is used to enclose code that might throw an exception and handle it."
+  },
+  {
+    "id": 7,
+    "question": "What is the size of a 'char' in Java?",
+    "options": ["8 bits", "16 bits", "32 bits", "Depends on the OS"],
+    "answer": "16 bits",
+    "explanation": "Java uses Unicode for characters, so a char is 2 bytes (16 bits)."
+  },
+  {
+    "id": 8,
+    "question": "Which package is imported by default in every Java program?",
+    "options": ["java.util", "java.io", "java.lang", "java.net"],
+    "answer": "java.lang",
+    "explanation": "The java.lang package contains fundamental classes like String and System and is automatically imported."
+  },
+  {
+    "id": 9,
+    "question": "What is 'method overloading'?",
+    "options": ["Defining two methods with the same name and different parameters", "Defining two methods with the same name and same parameters in different classes", "Replacing a method in a subclass", "Calling a method multiple times"],
+    "answer": "Defining two methods with the same name and different parameters",
+    "explanation": "Overloading allows a class to have more than one method with the same name, as long as their parameter lists are different."
+  },
+  {
+    "id": 10,
+    "question": "Which memory area in JVM is used for storing objects and their instance variables?",
+    "options": ["Stack", "Heap", "Method Area", "PC Register"],
+    "answer": "Heap",
+    "explanation": "The Heap is the runtime data area from which memory for all class instances and arrays is allocated."
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is used to achieve abstraction in Java?",
+    "options": ["Interface", "Abstract Class", "Both A and B", "None of the above"],
+    "answer": "Both A and B",
+    "explanation": "Both abstract classes and interfaces are used to hide implementation details and show only functionality."
+  },
+  {
+    "id": 12,
+    "question": "What is the result of '5 + 2 + \"3\"' in Java?",
+    "options": ["523", "10", "73", "Error"],
+    "answer": "73",
+    "explanation": "The addition is performed left-to-right: 5+2=7. Then 7 is concatenated with the string \"3\", resulting in \"73\"."
+  },
+  {
+    "id": 13,
+    "question": "Which keyword is used to access the parent class members?",
+    "options": ["this", "parent", "super", "base"],
+    "answer": "super",
+    "explanation": "The 'super' keyword is used to refer to immediate parent class objects or methods."
+  },
+  {
+    "id": 14,
+    "question": "What does the 'static' keyword mean for a method?",
+    "options": ["The method belongs to the class rather than an instance", "The method cannot be changed", "The method is private", "The method can only be called once"],
+    "answer": "The method belongs to the class rather than an instance",
+    "explanation": "Static methods can be called without creating an object of the class."
+  },
+  {
+    "id": 15,
+    "question": "Which collection allows unique elements only?",
+    "options": ["List", "Set", "Map", "Vector"],
+    "answer": "Set",
+    "explanation": "A Set is a collection that cannot contain duplicate elements."
+  },
+  {
+    "id": 16,
+    "question": "How do you start a thread in Java?",
+    "options": ["thread.run()", "thread.start()", "thread.init()", "thread.execute()"],
+    "answer": "thread.start()",
+    "explanation": "The start() method causes the thread to begin execution; the JVM calls the run() method of the thread."
+  },
+  {
+    "id": 17,
+    "question": "What is the return type of the hashCode() method?",
+    "options": ["String", "int", "boolean", "long"],
+    "answer": "int",
+    "explanation": "hashCode() returns an integer representation of an object's memory address or a logic-based value."
+  },
+  {
+    "id": 18,
+    "question": "Which of these is not a valid access modifier in Java?",
+    "options": ["public", "private", "protected", "internal"],
+    "answer": "internal",
+    "explanation": "'internal' is a modifier in C#, but not in Java."
+  },
+  {
+    "id": 19,
+    "question": "What is 'Garbage Collection' in Java?",
+    "options": ["Manual memory management", "The process of reclaiming unused heap memory", "A tool to delete files", "Cleaning the code"],
+    "answer": "The process of reclaiming unused heap memory",
+    "explanation": "Java's Garbage Collector automatically identifies and deletes objects that are no longer reachable."
+  },
+  {
+    "id": 20,
+    "question": "Which interface is used to make a class serializable?",
+    "options": ["Externalizable", "Serializable", "Cloneable", "Runnable"],
+    "answer": "Serializable",
+    "explanation": "Serializable is a marker interface used to indicate that a class can be converted to a byte stream."
+  }
+], 
+"C":[
+  {
+    "id": 1,
+    "question": "Who is known as the father of C language?",
+    "options": ["Bjarne Stroustrup", "James Gosling", "Dennis Ritchie", "Guido van Rossum"],
+    "answer": "Dennis Ritchie",
+    "explanation": "Dennis Ritchie developed C at Bell Labs between 1972 and 1973."
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is the correct extension of a C string source file?",
+    "options": [".c", ".cpp", ".obj", ".h"],
+    "answer": ".c",
+    "explanation": "C source files use the .c extension, while header files use .h."
+  },
+  {
+    "id": 3,
+    "question": "What is the result of the expression '5 + 3 * 2' in C?",
+    "options": ["16", "11", "13", "10"],
+    "answer": "11",
+    "explanation": "According to operator precedence, multiplication (*) is performed before addition (+)."
+  },
+  {
+    "id": 4,
+    "question": "Which function is used to read a character from the console in C?",
+    "options": ["printf()", "scanf()", "getch()", "read()"],
+    "answer": "getch()",
+    "explanation": "getch() reads a single character from the keyboard."
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is a literal way to define a constant in C?",
+    "options": ["#define", "const", "Both A and B", "static"],
+    "answer": "Both A and B",
+    "explanation": "Both the #define preprocessor and the const keyword can be used to create constants."
+  },
+  {
+    "id": 6,
+    "question": "What is the size of 'int' data type on a 32-bit system?",
+    "options": ["2 bytes", "4 bytes", "8 bytes", "1 byte"],
+    "answer": "4 bytes",
+    "explanation": "On most modern 32-bit and 64-bit systems, an integer occupies 4 bytes."
+  },
+  {
+    "id": 7,
+    "question": "What does the 'void' keyword signify in a function return type?",
+    "options": ["The function returns an integer", "The function returns nothing", "The function returns a pointer", "The function is invalid"],
+    "answer": "The function returns nothing",
+    "explanation": "Void indicates that the function does not return a value to the caller."
+  },
+  {
+    "id": 8,
+    "question": "Which operator is used to find the remainder of two numbers?",
+    "options": ["/", "\\", "%", "&"],
+    "answer": "%",
+    "explanation": "The modulus operator (%) returns the remainder of an integer division."
+  },
+  {
+    "id": 9,
+    "question": "What is a pointer in C?",
+    "options": ["A variable that stores a value", "A variable that stores a memory address", "A keyword used for loops", "A data type for decimals"],
+    "answer": "A variable that stores a memory address",
+    "explanation": "Pointers hold the address of another variable in memory."
+  },
+  {
+    "id": 10,
+    "question": "What is the index of the first element in a C array?",
+    "options": ["1", "0", "-1", "Depends on the array"],
+    "answer": "0",
+    "explanation": "C uses zero-based indexing for arrays."
+  },
+  {
+    "id": 11,
+    "question": "Which function is used to release dynamically allocated memory?",
+    "options": ["delete()", "remove()", "free()", "dealloc()"],
+    "answer": "free()",
+    "explanation": "The free() function deallocates memory previously allocated by malloc, calloc, or realloc."
+  },
+  {
+    "id": 12,
+    "question": "What is the purpose of the 'break' statement in a switch case?",
+    "options": ["To end the program", "To skip the next line", "To exit the switch block", "To repeat the case"],
+    "answer": "To exit the switch block",
+    "explanation": "Without break, execution 'falls through' to the subsequent cases."
+  },
+  {
+    "id": 13,
+    "question": "Which header file is required for the 'strlen()' function?",
+    "options": ["stdio.h", "string.h", "stdlib.h", "math.h"],
+    "answer": "string.h",
+    "explanation": "string.h contains various functions for manipulating arrays of characters."
+  },
+  {
+    "id": 14,
+    "question": "What is the output of 'printf(\"%d\", sizeof(char));'?",
+    "options": ["1", "2", "4", "8"],
+    "answer": "1",
+    "explanation": "The size of a char is always 1 byte in C."
+  },
+  {
+    "id": 15,
+    "question": "Which of the following is used for a single-line comment in C (C99 and later)?",
+    "options": ["/*", "//", "##", "--"],
+    "answer": "//",
+    "explanation": "While /* */ is for blocks, // is used for single-line comments in modern C."
+  },
+  {
+    "id": 16,
+    "question": "What is the maximum value a 'signed char' can hold?",
+    "options": ["255", "127", "128", "65535"],
+    "answer": "127",
+    "explanation": "A signed 8-bit char ranges from -128 to 127."
+  },
+  {
+    "id": 17,
+    "question": "What is the 'null character' used for in C strings?",
+    "options": ["To start a string", "To indicate the end of a string", "To delete a string", "To concatenate strings"],
+    "answer": "To indicate the end of a string",
+    "explanation": "C strings are terminated by a null character '\\0'."
+  },
+  {
+    "id": 18,
+    "question": "Which storage class has the longest lifetime?",
+    "options": ["auto", "register", "static", "extern"],
+    "answer": "static",
+    "explanation": "Static variables persist for the entire duration of the program."
+  },
+  {
+    "id": 19,
+    "question": "What does 'scanf(\"%s\", str);' read?",
+    "options": ["A single character", "A whole line including spaces", "A string until the first whitespace", "An integer"],
+    "answer": "A string until the first whitespace",
+    "explanation": "The %s format specifier in scanf stops reading when it encounters a space, tab, or newline."
+  },
+  {
+    "id": 20,
+    "question": "What is a 'structure' in C?",
+    "options": ["A collection of variables of the same type", "A collection of variables of different types", "A type of loop", "A memory address"],
+    "answer": "A collection of variables of different types",
+    "explanation": "Structures (struct) allow grouping variables of different data types under a single name."
+  }
+]
+}
